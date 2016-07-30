@@ -1,3 +1,12 @@
+Fork of BVLC/Caffe
+
+This is a fork for own use, thanks for the fantansy work by Caffe group.
+
+(1)Import the Spatial Transformer Networks by referencing [Kaichun Mo's STN Implementation](https://github.com/daerduoCarey/SpatialTransformerLayer)
+and [matthieudelaro's STN Combination Work](https://github.com/matthieudelaro/caffeBVLCplus) and [christopher5106's Wonderful Combination Work](https://github.com/christopher5106/last_caffe_with_stn).
+
+
+
 # Caffe
 
 [![Build Status](https://travis-ci.org/BVLC/caffe.svg?branch=master)](https://travis-ci.org/BVLC/caffe)
