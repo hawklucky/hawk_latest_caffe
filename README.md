@@ -1,11 +1,16 @@
 # Fork of BVLC/Caffe
 
-This is a fork for own use, thanks for the fantansy work by Caffe group.
+This is a fork for own use, thanks for the fantasy work by Caffe group.
 
-(1)Import the Spatial Transformer Networks by referencing [Kaichun Mo's STN Implementation](https://github.com/daerduoCarey/SpatialTransformerLayer)
+(I) Import the Spatial Transformer Networks by referencing [Kaichun Mo's STN Implementation](https://github.com/daerduoCarey/SpatialTransformerLayer)
 and [matthieudelaro's STN Combination Work](https://github.com/matthieudelaro/caffeBVLCplus) and [christopher5106's Wonderful Combination Work](https://github.com/christopher5106/last_caffe_with_stn).
 
-
+--Modify caffe.proto(add st_param,st_loss_param,loc_loss_param,power_file_param, add file member in filler message)
+--Modify filler.hpp(add FileFiller class)
+--Add include hpp file(st_layer.hpp,st_loss_layer.hpp,loc_loss_layer.hpp,power_file_layer.hpp)
+--Add src cpp/cu file(st_layer.cpp/.cu,st_loss_layer.cpp/.cu,loc_loss_layer.cpp/.cu,power_file_layer.cpp/.cu)
+--Add test file(add test_st_layer_hard.cpp)
+--Add examples(mnist,cub-bird)
 
 # Caffe
 
